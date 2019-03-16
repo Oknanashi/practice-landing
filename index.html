@@ -5,11 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
   <link rel="icon" href="./static/vanilla_ice_cream_png_1454068-compressor.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">  <title>Landing page</title>
 <link href="main.css" rel="stylesheet"></head>
@@ -28,29 +23,35 @@
       <div class="nav_options">
         <form method="post" action="index.html">
           <button class="searchHover">Search</button>
-          <div class="search-field appear hide">
-            <input id='search-field'placeholder="What are you looking for?" type="text">
-            <label for="search-field">Something special?</label>
+          <div class="hide">
+            <div class="search-field appear">
+              <input id='search-field'placeholder="What are you looking for?" type="text">
+              <label for="search-field">Something special?</label>
+            </div>
           </div>
         </form>
-        <form method="post" action="index.html">
+        <form  method="post" action="index.html">
           <button class="loginHover">Login</button>
-          <div class="hide appear login-form">
-            <div class="login-email-field">
-              <input id="login-email" type="email">
-              <label for="login-email">Email</label>
+          <div class="hide">
+            <div class="appear login-form">
+              <div class="login-email-field">
+                <input id="login-email" type="email">
+                <label for="login-email">Email</label>
+              </div>
+              <div class="login-password-field">
+                <input id='login-password' type="password">
+                <label for="login-password">Password</label>
+              </div>
+              <button class="button">Submit</button>
             </div>
-            <div class="login-password-field">
-              <input id='login-password' type="password">
-              <label for="login-password">Password</label>
-            </div>
-            <button class="button">Submit</button>
           </div>
         </form>
         <form method="post" action="index.html">
-          <button class="cartHover">Empty</button>
-          <div class="hide appear">
-            <p>Cart is empty</p>
+          <button class="cartHover">Cart</button>
+          <div class="hide">
+            <div class="appear">
+              <p>Cart is empty</p>
+            </div>
           </div>
         </form>
         <div class="phone-number">
@@ -58,8 +59,10 @@
             from 10am to 8pm, daily</p>
         </div>
       </div>
-
     </nav>
+
+    <!--Main content-->
+
     <main>
       <div class="radial-gradient">
         <div class="main-content__top">
@@ -155,9 +158,6 @@
             on the way and allows to maintain excellent taste
           </p>
         </div>
-
-
-
         </div>
       </div>
       <section class="blog_and_form">
@@ -182,6 +182,7 @@
       </section>
       <iframe title='shop-map' src="https://yandex.ru/map-widget/v1/?um=constructor%3A64d5d2581e81521fb03a9a90b2418f7c3dd1b3f9bdc153efc890cba73fea36f2&amp;source=constructor" width="100%" height="430" frameborder="0"></iframe>
     </main>
+    <!--Footer-->
     <footer>
       <div class="social_icons">
         <img src="./static/facebook-compressor.png" alt="">
@@ -201,9 +202,8 @@
       </div>
     </footer>
   </div>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+  <!--Scripts-->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script type="text/javascript" src="app.bundle.js"></script></body>
 </html>
