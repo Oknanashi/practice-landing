@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+  <link rel="icon" href="./static/vanilla_ice_cream_png_1454068-compressor.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">  <title>Landing page</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+  <div class="content-wrapper">
+    <nav>
+      <div class="nav-left">
+        <img src="./static/Logo-compressor.png" alt="">
+        <ul>
+          <li><a href="#">Catalog</a></li>
+          <li><a href="#">Deliver and payment</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="nav_options">
+        <form method="post" action="index.html">
+          <button class="searchHover">Search</button>
+          <div class="search-field appear hide">
+            <input id='search-field'placeholder="What are you looking for?" type="text">
+            <label for="search-field">Something special?</label>
+          </div>
+        </form>
+        <form method="post" action="index.html">
+          <button class="loginHover">Login</button>
+          <div class="hide appear login-form">
+            <div class="login-email-field">
+              <input id="login-email" type="email">
+              <label for="login-email">Email</label>
+            </div>
+            <div class="login-password-field">
+              <input id='login-password' type="password">
+              <label for="login-password">Password</label>
+            </div>
+            <button class="button">Submit</button>
+          </div>
+        </form>
+        <form method="post" action="index.html">
+          <button class="cartHover">Empty</button>
+          <div class="hide appear">
+            <p>Cart is empty</p>
+          </div>
+        </form>
+        <div class="phone-number">
+          <p>8 812 450-25-25<br>
+            from 10am to 8pm, daily</p>
+        </div>
+      </div>
+
+    </nav>
+    <main>
+      <div class="radial-gradient">
+        <div class="main-content__top">
+          <h1>Creme brulee<br>
+            with raspberry jam</h1>
+          <div class="offer-switchers">
+            <label class="switchers" id="switcher1"></label>
+            <label class="switchers" id="switcher2"></label>
+            <label class="switchers" id="switcher3"></label>
+          </div>
+          <button class="button">I'll take both!</button>
+        </div>
+      </div>
+      <section class="toppings">
+        <article class="topping topping-1">
+          <h2 class="topping-header">
+            Raspberry for free!
+          </h2>
+          <p>
+            Buy any 2kg fruit ice cream,
+            and you will get jar of raspberry jam for free
+          </p>
+          <button>
+            I want some!
+          </button>
+        </article>
+        <article class="topping topping-2">
+          <h2 class="topping-header">
+            Take some chocolate!
+          </h2>
+          <p>
+            Buy any 2kg сreamy ice cream,
+            and we will add chocolate chips into your order
+          </p>
+          <button>
+            Sign me in!
+          </button>
+        </article>
+      </section>
+      <section class="best-selling">
+        <div class="hit">
+          <img src="./static/vanilla-compressor.png" alt="">
+          <span class="pricetag">6.75$/кг</span>
+          <p>
+            Creamy ice cream with orange jam and citrus chips
+          </p>
+        </div>
+        <div class="hit">
+          <img src="./static/chocolate-compressor.png" alt="">
+          <span class="pricetag">6.5 $/kg</span>
+          <p>Creamy-coffee flavour with some chocolate pieces
+          </p>
+        </div>
+        <div class="hit">
+        <img src="./static/pink-compressor.png" alt="">
+        <span class="pricetag">7.2 $/kg</span>
+        <p>Strawberry with white chocolate chips
+        </p>
+      </div>
+        <div class="hit">
+        <img src="./static/pistachio-compressor.png" alt="">
+        <span class="pricetag">7.5$/kg</span>
+        <p>Creme brulee with caramel sauce
+        </p>
+      </div>
+      </section>
+      <div class="about">
+        <h2>
+          Glaccy shop — is an online and offline store
+          selling ice cream
+        </h2>
+        <div class="about-features">
+          <div class="about-feature">
+            <img src="./static/icecrean-compressor.png" alt="">
+            <p>
+              For ice cream producing we use only natural and high quality cream and milk.
+              All additional ingridients are made of environmentally friendly raw materials
+          </div>
+          <div class="about-feature">
+            <img src="./static/leaf-compressor.png" alt="">
+            <p>
+              All our ice cream is produced in-house, using modern equipment and time-tested technologies.
+            </p>
+          </div><div class="about-feature">
+          <img src="./static/cow-compressor.png" alt="">
+          <p>
+            All of our ingridients are bought from trusted farms and companies
+          </p>
+        </div><div class="about-feature">
+          <img src="./static/temp-compressor.png" alt="">
+          <p>
+            We deliver our product in special thermopack which does not allow ice cream to melt
+            on the way and allows to maintain excellent taste
+          </p>
+        </div>
+
+
+
+        </div>
+      </div>
+      <section class="blog_and_form">
+        <div class="blog">
+          <p>New in out blog</p>
+          <a href="#">
+            10 ways of serving fruit sorbet
+          </a>
+        </div>
+        <article class="form">
+          <div class="form-itself">
+            <p>
+              Subscribe to our sweet newsletter and we promise you will not get any spam from us
+              and useless nonsense. Word =)
+            </p>
+            <form class="input">
+              <input placeholder="Email" type="email">
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </article>
+      </section>
+      <iframe title='shop-map' src="https://yandex.ru/map-widget/v1/?um=constructor%3A64d5d2581e81521fb03a9a90b2418f7c3dd1b3f9bdc153efc890cba73fea36f2&amp;source=constructor" width="100%" height="430" frameborder="0"></iframe>
+    </main>
+    <footer>
+      <div class="social_icons">
+        <img src="./static/facebook-compressor.png" alt="">
+        <img src="./static/inst-compressor.png" alt="">
+        <img src="./static/twitter-compressor.png" alt="">
+        <img src="./static/vk-compressor.png" alt="">
+      </div>
+      <div class="footer_info">
+        <a href="">For suppliers</a>
+        <a href="">Our certifications</a>
+        <a href="">Production details </a>
+        <a href="">Environmental standards</a>
+      </div>
+      <div class="copyright">
+        <img src="./static/logo-htmlacademy-small-compressor.png" alt="">
+        <p>Designed by Html Academy</p>
+      </div>
+    </footer>
+  </div>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+<script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
