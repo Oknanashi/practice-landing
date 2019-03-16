@@ -1,14 +1,9 @@
 if (module.hot) {
   module.hot.accept();
 }
-import $ from 'jquery'
-require('jquery-ui');
 
 
-
-
-
-$('form').hover(function(e){
+$('form').hover (function(e){
   $('div',this).show('slow');
 },function(e){
   $('div',this).hide('slow');
@@ -24,7 +19,7 @@ $('footer').children('div').children('a').hover(function(){
   $(this).css('color','white')
 });
 
-
+// Looks like a joke
 $('#switcher2').click(()=>{
   $('.main-content__top').css('background-image',"none")
   $('.content-wrapper').css('background-image',"url('./static/special-offer-2-compressor.png')")

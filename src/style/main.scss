@@ -1,3 +1,6 @@
+//Media queries are at the bottom
+//Not moblie first
+
 html{
   margin: 0;
   padding: 0;
@@ -114,7 +117,7 @@ body{
 
         }
         .login-form{
-          display: flex;
+
           flex-direction: column;
           justify-content: center;
           align-items: center;
