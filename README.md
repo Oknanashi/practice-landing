@@ -3,5 +3,7 @@ Jquery/vanilla javascript\
 Sass\
 Webpack\
 Compressed Images\
-Embed maps Google/Yandex
+Embed maps Google/Yandex\
+css grid\
+carousel\
 90% average on Lighthouse
