@@ -1,4 +1,6 @@
+Basic web page to learn new tools and technologies
 # Technologies/practices used:
+
 Jquery/vanilla javascript\
 Sass\
 Webpack\
